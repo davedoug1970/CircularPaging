@@ -7,7 +7,7 @@
 //
 
 #import "SSMainViewController.h"
-
+#import "SSPageDataSource.h"
 @interface SSMainViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self setDataSource:[[SSPageDataSource alloc] init]];
+    [self setup];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,5 +42,6 @@
     controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:controller animated:YES completion:nil];
 }
+
 
 @end

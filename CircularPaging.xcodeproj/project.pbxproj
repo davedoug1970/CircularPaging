@@ -20,6 +20,18 @@
 		5570708216F7F897009D5A07 /* SSFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570708116F7F897009D5A07 /* SSFlipsideViewController.m */; };
 		5570708516F7F897009D5A07 /* SSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5570708316F7F897009D5A07 /* SSMainViewController.xib */; };
 		5570708816F7F897009D5A07 /* SSFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5570708616F7F897009D5A07 /* SSFlipsideViewController.xib */; };
+		5570709316F7FAC1009D5A07 /* SSCircularPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570709216F7FAC1009D5A07 /* SSCircularPageController.m */; };
+		5570709616F80372009D5A07 /* SSPageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570709516F80372009D5A07 /* SSPageDataSource.m */; };
+		55F2ADCC16FBAB8400A3FF57 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC216FBAB8400A3FF57 /* Icon-72.png */; };
+		55F2ADCD16FBAB8400A3FF57 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC316FBAB8400A3FF57 /* Icon-72@2x.png */; };
+		55F2ADCE16FBAB8400A3FF57 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC416FBAB8400A3FF57 /* Icon-Small-50.png */; };
+		55F2ADCF16FBAB8400A3FF57 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC516FBAB8400A3FF57 /* Icon-Small-50@2x.png */; };
+		55F2ADD016FBAB8400A3FF57 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC616FBAB8400A3FF57 /* Icon-Small.png */; };
+		55F2ADD116FBAB8400A3FF57 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADC716FBAB8400A3FF57 /* Icon-Small@2x.png */; };
+		55F2ADD416FBAB8400A3FF57 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADCA16FBAB8400A3FF57 /* iTunesArtwork.png */; };
+		55F2ADD516FBAB8400A3FF57 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADCB16FBAB8400A3FF57 /* iTunesArtwork@2x.png */; };
+		55F2ADD716FBAB9200A3FF57 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADD616FBAB9200A3FF57 /* Icon.png */; };
+		55F2ADD916FBAB9900A3FF57 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F2ADD816FBAB9900A3FF57 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +54,20 @@
 		5570708116F7F897009D5A07 /* SSFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFlipsideViewController.m; sourceTree = "<group>"; };
 		5570708416F7F897009D5A07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSMainViewController.xib; sourceTree = "<group>"; };
 		5570708716F7F897009D5A07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSFlipsideViewController.xib; sourceTree = "<group>"; };
+		5570709116F7FAC1009D5A07 /* SSCircularPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCircularPageController.h; path = CircularPaging/SSCircularPageController.h; sourceTree = "<group>"; };
+		5570709216F7FAC1009D5A07 /* SSCircularPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCircularPageController.m; path = CircularPaging/SSCircularPageController.m; sourceTree = "<group>"; };
+		5570709416F80372009D5A07 /* SSPageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPageDataSource.h; sourceTree = "<group>"; };
+		5570709516F80372009D5A07 /* SSPageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPageDataSource.m; sourceTree = "<group>"; };
+		55F2ADC216FBAB8400A3FF57 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "CircularPaging/Icon-72.png"; sourceTree = "<group>"; };
+		55F2ADC316FBAB8400A3FF57 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "CircularPaging/Icon-72@2x.png"; sourceTree = "<group>"; };
+		55F2ADC416FBAB8400A3FF57 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "CircularPaging/Icon-Small-50.png"; sourceTree = "<group>"; };
+		55F2ADC516FBAB8400A3FF57 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "CircularPaging/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		55F2ADC616FBAB8400A3FF57 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "CircularPaging/Icon-Small.png"; sourceTree = "<group>"; };
+		55F2ADC716FBAB8400A3FF57 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "CircularPaging/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		55F2ADCA16FBAB8400A3FF57 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = CircularPaging/iTunesArtwork.png; sourceTree = "<group>"; };
+		55F2ADCB16FBAB8400A3FF57 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "CircularPaging/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		55F2ADD616FBAB9200A3FF57 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		55F2ADD816FBAB9900A3FF57 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,18 @@
 		5570705916F7F897009D5A07 = {
 			isa = PBXGroup;
 			children = (
+				55F2ADD816FBAB9900A3FF57 /* Icon@2x.png */,
+				55F2ADD616FBAB9200A3FF57 /* Icon.png */,
+				55F2ADC216FBAB8400A3FF57 /* Icon-72.png */,
+				55F2ADC316FBAB8400A3FF57 /* Icon-72@2x.png */,
+				55F2ADC416FBAB8400A3FF57 /* Icon-Small-50.png */,
+				55F2ADC516FBAB8400A3FF57 /* Icon-Small-50@2x.png */,
+				55F2ADC616FBAB8400A3FF57 /* Icon-Small.png */,
+				55F2ADC716FBAB8400A3FF57 /* Icon-Small@2x.png */,
+				55F2ADCA16FBAB8400A3FF57 /* iTunesArtwork.png */,
+				55F2ADCB16FBAB8400A3FF57 /* iTunesArtwork@2x.png */,
+				5570709116F7FAC1009D5A07 /* SSCircularPageController.h */,
+				5570709216F7FAC1009D5A07 /* SSCircularPageController.m */,
 				5570706B16F7F897009D5A07 /* CircularPaging */,
 				5570706416F7F897009D5A07 /* Frameworks */,
 				5570706316F7F897009D5A07 /* Products */,
@@ -97,6 +135,8 @@
 				5570708316F7F897009D5A07 /* SSMainViewController.xib */,
 				5570708616F7F897009D5A07 /* SSFlipsideViewController.xib */,
 				5570706C16F7F897009D5A07 /* Supporting Files */,
+				5570709416F80372009D5A07 /* SSPageDataSource.h */,
+				5570709516F80372009D5A07 /* SSPageDataSource.m */,
 			);
 			path = CircularPaging;
 			sourceTree = "<group>";
@@ -173,6 +213,16 @@
 				5570707C16F7F897009D5A07 /* Default-568h@2x.png in Resources */,
 				5570708516F7F897009D5A07 /* SSMainViewController.xib in Resources */,
 				5570708816F7F897009D5A07 /* SSFlipsideViewController.xib in Resources */,
+				55F2ADCC16FBAB8400A3FF57 /* Icon-72.png in Resources */,
+				55F2ADCD16FBAB8400A3FF57 /* Icon-72@2x.png in Resources */,
+				55F2ADCE16FBAB8400A3FF57 /* Icon-Small-50.png in Resources */,
+				55F2ADCF16FBAB8400A3FF57 /* Icon-Small-50@2x.png in Resources */,
+				55F2ADD016FBAB8400A3FF57 /* Icon-Small.png in Resources */,
+				55F2ADD116FBAB8400A3FF57 /* Icon-Small@2x.png in Resources */,
+				55F2ADD416FBAB8400A3FF57 /* iTunesArtwork.png in Resources */,
+				55F2ADD516FBAB8400A3FF57 /* iTunesArtwork@2x.png in Resources */,
+				55F2ADD716FBAB9200A3FF57 /* Icon.png in Resources */,
+				55F2ADD916FBAB9900A3FF57 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +237,8 @@
 				5570707616F7F897009D5A07 /* SSAppDelegate.m in Sources */,
 				5570707F16F7F897009D5A07 /* SSMainViewController.m in Sources */,
 				5570708216F7F897009D5A07 /* SSFlipsideViewController.m in Sources */,
+				5570709316F7FAC1009D5A07 /* SSCircularPageController.m in Sources */,
+				5570709616F80372009D5A07 /* SSPageDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +369,7 @@
 				5570708D16F7F897009D5A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

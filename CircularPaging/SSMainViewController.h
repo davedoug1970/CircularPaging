@@ -7,8 +7,9 @@
 //
 
 #import "SSFlipsideViewController.h"
+#import "SSCircularPageController.h"
 
-@interface SSMainViewController : UIViewController <SSFlipsideViewControllerDelegate>
+@interface SSMainViewController : SSCircularPageController<SSFlipsideViewControllerDelegate>
 
 - (IBAction)showInfo:(id)sender;
 
