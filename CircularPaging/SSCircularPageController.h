@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet id<SSCircularPageDataSource> dataSource;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (strong, nonatomic) IBOutlet UIView *mainView;
+@property (assign, nonatomic) int pageIndex;
 
 - (void)setup;
 - (IBAction)pageControlChanged:(id)sender;
